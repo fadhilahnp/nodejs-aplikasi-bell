@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bulma.css">
+  <link rel="stylesheet" href="css/index.css">
+
+  <title>Aplikasi Bell Kuis</title>
+</head>
+
+<body>
+  <section class="hero is-primary is-bold">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+          Kelompok: <span id="groupId">...</span>
+        </h1>
+        <h2 class="subtitle">
+          Urutan ke - <span id="orderNumb">0</span>
+        </h2>
+      </div>
+    </div>
+  </section>
+
+  <div class="container has-padding-6">
+    <input class="input is-rounded" id="groupIdTxt" type="text" placeholder="Nama Kelompok">
+
+    <div class="has-padding-top-2">
+      <div class="column is-full">
+        <figure class="image is-128x128 has-image-centered">
+          <img onclick="pushButton()" src="img/button.png">
+        </figure>
+      </div>
+    </div>
+  </div>
+
+  <script src = "../socket.io/socket.io.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>

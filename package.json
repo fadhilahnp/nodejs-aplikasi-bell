@@ -1,0 +1,16 @@
+{
+  "name": "scrabble",
+  "version": "1.0.0",
+  "description": "Aplikasi berbasis web untuk menentukan siapa yang berhak menjawab terlebih dahulu",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fadhilah Nugraha Putra",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
